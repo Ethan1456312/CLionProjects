@@ -55,6 +55,12 @@ build CMakeFiles/CustomVector.dir/main.cpp.obj: CXX_COMPILER__CustomVector_unsca
   OBJECT_DIR = CMakeFiles\CustomVector.dir
   OBJECT_FILE_DIR = CMakeFiles\CustomVector.dir
 
+build CMakeFiles/CustomVector.dir/customVector.cpp.obj: CXX_COMPILER__CustomVector_unscanned_Debug C$:/Users/Destr/CLionProjects/CustomVector/customVector.cpp || cmake_object_order_depends_target_CustomVector
+  DEP_FILE = CMakeFiles\CustomVector.dir\customVector.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CustomVector.dir
+  OBJECT_FILE_DIR = CMakeFiles\CustomVector.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CustomVector
@@ -63,7 +69,7 @@ build CMakeFiles/CustomVector.dir/main.cpp.obj: CXX_COMPILER__CustomVector_unsca
 #############################################
 # Link the executable CustomVector.exe
 
-build CustomVector.exe: CXX_EXECUTABLE_LINKER__CustomVector_Debug CMakeFiles/CustomVector.dir/main.cpp.obj
+build CustomVector.exe: CXX_EXECUTABLE_LINKER__CustomVector_Debug CMakeFiles/CustomVector.dir/main.cpp.obj CMakeFiles/CustomVector.dir/customVector.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CustomVector.dir
