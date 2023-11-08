@@ -1,0 +1,8 @@
+# ninja log v5
+2	208	7186772286832710	CMakeFiles/MovingPlayer.dir/main.cpp.obj	f395f795c6190f35
+209	279	7186772287518108	MovingPlayer.exe	61afe2a1bdc9b954
+1	121	7204289131428336	build.ninja	642d750d9c7363a0
+2	265	7204289134537861	CMakeFiles/MovingPlayer.dir/main.cpp.obj	f395f795c6190f35
+265	331	7204289135173594	MovingPlayer.exe	61afe2a1bdc9b954
+1	205	7204289625770893	CMakeFiles/MovingPlayer.dir/main.cpp.obj	f395f795c6190f35
+205	268	7204289626376827	MovingPlayer.exe	61afe2a1bdc9b954

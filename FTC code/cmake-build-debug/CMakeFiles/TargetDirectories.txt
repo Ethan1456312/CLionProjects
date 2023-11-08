@@ -1,0 +1,3 @@
+C:/Users/Ethan Stephenson/CLionProjects/FTC code/cmake-build-debug/CMakeFiles/FTC_code.dir
+C:/Users/Ethan Stephenson/CLionProjects/FTC code/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ethan Stephenson/CLionProjects/FTC code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
