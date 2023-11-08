@@ -1,0 +1,3 @@
+C:/Users/Destr/CLionProjects/ExamProgrammingQuestion1/cmake-build-debug/CMakeFiles/ExamProgrammingQuestion1.dir
+C:/Users/Destr/CLionProjects/ExamProgrammingQuestion1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Destr/CLionProjects/ExamProgrammingQuestion1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

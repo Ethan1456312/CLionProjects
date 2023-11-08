@@ -1,0 +1,3 @@
+C:/Users/Destr/CLionProjects/GroupProjectFunctions/cmake-build-debug/CMakeFiles/GroupProjectFunctions.dir
+C:/Users/Destr/CLionProjects/GroupProjectFunctions/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Destr/CLionProjects/GroupProjectFunctions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

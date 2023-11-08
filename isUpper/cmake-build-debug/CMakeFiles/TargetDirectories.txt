@@ -1,0 +1,3 @@
+C:/Users/Destr/CLionProjects/isUpper/cmake-build-debug/CMakeFiles/isUpper.dir
+C:/Users/Destr/CLionProjects/isUpper/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Destr/CLionProjects/isUpper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
