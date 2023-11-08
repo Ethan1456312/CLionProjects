@@ -1,19 +1,3 @@
 # ninja log v5
-0	604	7189174576539294	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-608	874	7189174579138525	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-6	626	7189175572920723	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-627	866	7189175575253603	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-4	524	7189175804450778	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-525	724	7189175806422122	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-5	640	7189178734859386	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-641	898	7189178737428413	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-4	552	7189178845228116	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-553	769	7189178847330822	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-4	553	7189178967263940	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-554	714	7189178968794569	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-5	541	7189179412411962	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-542	734	7189179414291673	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
-5	581	7189179701403375	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
-582	754	7189179703072808	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b
 6	537	7189180151909477	CMakeFiles/ExamProgrammingQuestion1.dir/main.cpp.obj	2166da31c22d75ae
 539	719	7189180153671159	ExamProgrammingQuestion1.exe	ec3e6757a2177f8b

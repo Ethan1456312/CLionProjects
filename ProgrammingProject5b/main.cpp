@@ -14,7 +14,7 @@ using namespace std;
 void arrayDeclaration(ifstream&, string[], double[], vector<double>&);
 //Prompts user to enter a name of a country to search for the gdp and internet rate in that country
 void countrySearch(const string[], const double[], vector<double>, int);
-
+//test
 int lineCount(ifstream&);
 int main() {
     //Opens the file of data
@@ -58,6 +58,7 @@ int lineCount(ifstream& instream) {
         count++;
     }
     return count;
+    cout << count;
 }
 
 
