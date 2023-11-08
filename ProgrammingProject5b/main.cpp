@@ -58,7 +58,6 @@ int lineCount(ifstream& instream) {
         count++;
     }
     return count;
-    cout << count;
 }
 
 
