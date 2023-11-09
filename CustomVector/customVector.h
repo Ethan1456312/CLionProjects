@@ -1,10 +1,4 @@
-#include <iostream>
-//
-// Created by Destr on 11/8/2023.
-//
-using namespace std;
-#ifndef CUSTOMVECTOR_CUSTOMVECTOR_H
-#define CUSTOMVECTOR_CUSTOMVECTOR_H
+
 class customVector {
 public:
     customVector();
@@ -45,7 +39,3 @@ void customVector::increaseSize() {
     delete [] ptr2;
     currentSize = newSize;
 }
-
-
-
-#endif //CUSTOMVECTOR_CUSTOMVECTOR_H
