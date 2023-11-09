@@ -2,40 +2,51 @@
 class customVector {
 public:
     customVector();
+    customVector(int);
     void pushBack(int);
-    int* ptr;
+    void shrinkToSize();
+    int& operator[](int);
 private:
     void increaseSize();
-    void intialization();
-    int currentSize;
-    int currentIndex;
+    int currentSize = 16;
+    int currentIndex = 0;
     int* ptr2;
+    int* ptr;
 
 };
-customVector::customVector() {
-    currentSize = 16;
-    currentIndex = 0;
+customVector::customVector()
+ {
     ptr = new int[currentSize];
 }
 
+int& customVector::operator[](int temp) {
+    return ptr[temp];
+}
+
 void customVector::pushBack(int newValue) {
-    if(currentSize < currentIndex){
-        increaseSize();
+    try {
+        if (currentSize < currentIndex) {
+            increaseSize();
+        }
+        ptr[currentIndex] = newValue;
+        currentIndex++;
     }
-    ptr[currentIndex] = newValue;
-    currentIndex++;
+    catch(std::bad_alloc){
+    }
 
 }
 
 void customVector::increaseSize() {
     int newSize = currentSize * 2;
     ptr2 = new int[newSize];
-    for(int i = 0; i < currentSize; i++)
-        ptr2[i] = ptr[i];
+    ptr2 = ptr;
     delete [] ptr;
     ptr = new int[newSize];
-    for(int i = 0; i <= currentSize; i++)
-        ptr[i] = ptr2[i];
+    ptr = ptr2;
     delete [] ptr2;
     currentSize = newSize;
+}
+
+void customVector::shrinkToSize(){
+
 }

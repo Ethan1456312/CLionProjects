@@ -6,10 +6,9 @@ int main() {
     customVector test;
     for(int p = 0; p <= 200; p++){
         test.pushBack(count);
-        cout << test.ptr[count] << endl;
+        cout << test[count] << endl;
         count++;
     }
-
     return 0;
 
 }
