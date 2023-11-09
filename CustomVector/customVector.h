@@ -7,9 +7,7 @@ using namespace std;
 #define CUSTOMVECTOR_CUSTOMVECTOR_H
 class customVector {
 public:
-    customVector(){
-        intialization();
-    }
+    customVector();
     void pushBack(int);
     int* ptr;
 private:
@@ -20,31 +18,31 @@ private:
     int* ptr2;
 
 };
-void customVector::intialization(){
+customVector::customVector() {
     currentSize = 16;
     currentIndex = 0;
     ptr = new int[currentSize];
 }
-void customVector::pushBack(int newValue) {
-    ptr[currentIndex] = newValue;
-    currentIndex++;
-    if(currentSize-1 < currentIndex){
 
+void customVector::pushBack(int newValue) {
+    if(currentSize < currentIndex){
         increaseSize();
     }
+    ptr[currentIndex] = newValue;
+    currentIndex++;
+
 }
 
 void customVector::increaseSize() {
-
     int newSize = currentSize * 2;
     ptr2 = new int[newSize];
-    ptr2 = ptr;
+    for(int i = 0; i < currentSize; i++)
+        ptr2[i] = ptr[i];
     delete [] ptr;
-    ptr = ptr2;
     ptr = new int[newSize];
-    cout << ptr[3];
+    for(int i = 0; i <= currentSize; i++)
+        ptr[i] = ptr2[i];
     delete [] ptr2;
-
     currentSize = newSize;
 }
 

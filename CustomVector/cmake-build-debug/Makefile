@@ -128,30 +128,6 @@ CustomVector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CustomVector.dir\build.make CMakeFiles/CustomVector.dir/build
 .PHONY : CustomVector/fast
 
-customVector.obj: customVector.cpp.obj
-.PHONY : customVector.obj
-
-# target to build an object file
-customVector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CustomVector.dir\build.make CMakeFiles/CustomVector.dir/customVector.cpp.obj
-.PHONY : customVector.cpp.obj
-
-customVector.i: customVector.cpp.i
-.PHONY : customVector.i
-
-# target to preprocess a source file
-customVector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CustomVector.dir\build.make CMakeFiles/CustomVector.dir/customVector.cpp.i
-.PHONY : customVector.cpp.i
-
-customVector.s: customVector.cpp.s
-.PHONY : customVector.s
-
-# target to generate assembly for a file
-customVector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CustomVector.dir\build.make CMakeFiles/CustomVector.dir/customVector.cpp.s
-.PHONY : customVector.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -185,9 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CustomVector
-	@echo ... customVector.obj
-	@echo ... customVector.i
-	@echo ... customVector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Ethan Stephenson/CLionProjects/CustomVector/customVector.cpp">
-			<Option target="CustomVector"/>
-		</Unit>
 		<Unit filename="C:/Users/Ethan Stephenson/CLionProjects/CustomVector/customVector.h">
 			<Option target="CustomVector"/>
 		</Unit>

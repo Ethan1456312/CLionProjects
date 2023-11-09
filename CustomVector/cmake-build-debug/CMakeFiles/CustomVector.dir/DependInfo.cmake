@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Ethan Stephenson/CLionProjects/CustomVector/customVector.cpp" "CMakeFiles/CustomVector.dir/customVector.cpp.obj" "gcc" "CMakeFiles/CustomVector.dir/customVector.cpp.obj.d"
   "C:/Users/Ethan Stephenson/CLionProjects/CustomVector/main.cpp" "CMakeFiles/CustomVector.dir/main.cpp.obj" "gcc" "CMakeFiles/CustomVector.dir/main.cpp.obj.d"
   )
 
