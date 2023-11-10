@@ -8,8 +8,10 @@ public:
     int& operator[](int);
 private:
     void increaseSize();
-    int currentSize = 16;
-    int currentIndex = 0;
+    void arrayCopy();
+    size_t currentSize = 16;
+    size_t currentIndex = 0;
+    size_t newSize = 0;
     int* ptr2;
     int* ptr;
 
@@ -37,16 +39,22 @@ void customVector::pushBack(int newValue) {
 }
 
 void customVector::increaseSize() {
-    int newSize = currentSize * 2;
-    ptr2 = new int[newSize];
-    ptr2 = ptr;
-    delete [] ptr;
-    ptr = new int[newSize];
-    ptr = ptr2;
-    delete [] ptr2;
+    newSize = currentSize * 2;
+    arrayCopy();
     currentSize = newSize;
 }
 
 void customVector::shrinkToSize(){
+    newSize = sizeof(ptr)/sizeof(int);
+    arrayCopy();
+    currentSize = newSize;
+}
 
+void customVector::arrayCopy() {
+    ptr2 = new int[newSize];
+    memcpy(ptr2, ptr, sizeof(int));
+    delete [] ptr;
+    ptr = new int[newSize];
+    memcpy(ptr, ptr2, sizeof(int));
+    delete [] ptr2;
 }

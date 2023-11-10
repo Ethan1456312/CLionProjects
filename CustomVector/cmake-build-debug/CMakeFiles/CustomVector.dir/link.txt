@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\CustomVector.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\CustomVector.dir/objects.a @CMakeFiles\CustomVector.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\CustomVector.dir/objects.a -Wl,--no-whole-archive -o CustomVector.exe -Wl,--out-implib,libCustomVector.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CustomVector.dir\linkLibs.rsp
