@@ -2,17 +2,16 @@
 class customVector {
 public:
     customVector();
-    customVector(int);
     void pushBack(int);
-    void shrinkToSize();
     int& operator[](int);
+    int* operator=(int);
 private:
     void increaseSize();
     void arrayCopy();
     size_t currentSize = 16;
     size_t currentIndex = 0;
     size_t newSize = 0;
-    int* ptr2;
+    int* ptr2{};
     int* ptr;
 
 };
@@ -44,17 +43,14 @@ void customVector::increaseSize() {
     currentSize = newSize;
 }
 
-void customVector::shrinkToSize(){
-    newSize = sizeof(ptr)/sizeof(int);
-    arrayCopy();
-    currentSize = newSize;
-}
 
 void customVector::arrayCopy() {
     ptr2 = new int[newSize];
     memcpy(ptr2, ptr, sizeof(int));
+    std::cout << ptr2[5];
     delete [] ptr;
     ptr = new int[newSize];
     memcpy(ptr, ptr2, sizeof(int));
     delete [] ptr2;
 }
+

@@ -4,13 +4,12 @@ using namespace std;
 int main() {
     int count = 0;
     customVector test;
-    for(int p = 0; p <= 20; p++){
-        test.pushBack(count*2);
+    for(int p = 0; p <= 100; p++){
+        test.pushBack(count);
         cout << test[count] << endl;
         count++;
     }
-    test.shrinkToSize();
-    cout << sizeof(test)/sizeof(int);
+    cout << test[84];
     return 0;
 
 }
