@@ -3,13 +3,16 @@
 using namespace std;
 int main() {
     int count = 0;
+    int size;
     customVector test;
-    for(int p = 0; p <= 100; p++){
+    for(int p = 0; p <= 20; p++){
         test.pushBack(count);
         cout << test[count] << endl;
         count++;
     }
-    cout << test[84];
+    size = sizeof(test)/sizeof(int);
+    cout << size;
+
     return 0;
 
 }

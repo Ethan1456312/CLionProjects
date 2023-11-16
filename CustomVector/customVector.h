@@ -47,7 +47,6 @@ void customVector::increaseSize() {
 void customVector::arrayCopy() {
     ptr2 = new int[newSize];
     memcpy(ptr2, ptr, sizeof(int));
-    std::cout << ptr2[5];
     delete [] ptr;
     ptr = new int[newSize];
     memcpy(ptr, ptr2, sizeof(int));
