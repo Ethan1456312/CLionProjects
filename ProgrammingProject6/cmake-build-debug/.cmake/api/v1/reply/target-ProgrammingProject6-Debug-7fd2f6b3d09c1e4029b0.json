@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CustomVector.exe"
+			"path" : "ProgrammingProject6.exe"
 		},
 		{
-			"path" : "CustomVector.pdb"
+			"path" : "ProgrammingProject6.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "CustomVector::@6890427a1f51a3e7e1df",
+	"id" : "ProgrammingProject6::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CustomVector",
-	"nameOnDisk" : "CustomVector.exe",
+	"name" : "ProgrammingProject6",
+	"nameOnDisk" : "ProgrammingProject6.exe",
 	"paths" : 
 	{
 		"build" : ".",
