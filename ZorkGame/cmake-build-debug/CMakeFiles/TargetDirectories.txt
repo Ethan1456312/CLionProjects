@@ -1,3 +1,0 @@
-C:/Users/Ethan Stephenson/CLionProjects/ZorkGame/cmake-build-debug/CMakeFiles/ZorkGame.dir
-C:/Users/Ethan Stephenson/CLionProjects/ZorkGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Ethan Stephenson/CLionProjects/ZorkGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
