@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\ProgrammingProject5b.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\ProgrammingProject5b.dir/objects.a @CMakeFiles\ProgrammingProject5b.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\ProgrammingProject5b.dir/objects.a -Wl,--no-whole-archive -o ProgrammingProject5b.exe -Wl,--out-implib,libProgrammingProject5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ProgrammingProject5b.dir\linkLibs.rsp
